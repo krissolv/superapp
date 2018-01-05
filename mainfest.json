@@ -1,0 +1,7 @@
+{
+  "short_name": "SuperApp",
+  "name": "The App of Superbeness",
+  "start_url": "index.html?launcher=true",
+  "background_color": "#053E5E",
+  "display": "standalone"
+}
