@@ -3,5 +3,10 @@
   "name": "The App of Superbeness",
   "start_url": "index.html?launcher=true",
   "background_color": "#053E5E",
-  "display": "standalone"
+  "display": "standalone",
+  "icons": [{
+    "src": "icons/icon.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }
 }
