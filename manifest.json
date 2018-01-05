@@ -1,6 +1,10 @@
 {
   "short_name": "SuperApp",
   "name": "My Super Application",
+  "display": "standalone",
+  "start_url": "index.html?launcher=true",
+  "background_color": "#053E5E",
+  "theme_color": "#053E5E",
   "icons": [
     {
       "src": "icons/icon-48.png",
@@ -17,9 +21,5 @@
       "type": "image/png",
       "sizes": "192x192"
     }
-  ],
-  "start_url": "index.html?launcher=true",
-  "background_color": "#053E5E",
-  "theme_color": "#053E5E",
-  "display": "standalone"
+  ]
 }
