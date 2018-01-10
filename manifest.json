@@ -5,6 +5,13 @@
   "start_url": "index.html?launcher=true",
   "background_color": "#053E5E",
   "theme_color": "#053E5E",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "no.wtw.helserespons.android"
+    }
+  ],
   "icons": [
     {
       "src": "icons/icon-48.png",
