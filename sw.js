@@ -1,7 +1,9 @@
-var CACHE_NAME = 'superapp-cache-v3';
+var CACHE_NAME = 'superapp-cache-v4';
 
 var urlsToCache = [
-  '/superapp/'
+  '/superapp/',
+  '/superapp/index.html',
+  '/superapp/index.html?launcher=true'
 ];
 
 self.addEventListener('install', function(event) {
