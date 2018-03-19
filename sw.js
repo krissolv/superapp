@@ -1,4 +1,4 @@
-var CACHE_NAME = 'superapp-cache-v4';
+var CACHE_NAME = 'superapp-cache-v1';
 
 var urlsToCache = [
   '/superapp/',
@@ -14,19 +14,5 @@ self.addEventListener('install', function(event) {
             console.log('Opened cache');
             return cache.addAll(urlsToCache);
           })
-  );
-});
-
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-      caches.match(event.request)
-          .then(function(response) {
-
-                if (response) {
-                  return response;
-                }
-                return fetch(event.request);
-              }
-          )
   );
 });
