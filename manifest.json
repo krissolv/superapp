@@ -1,33 +1,23 @@
 {
-  "short_name": "SuperApp",
-  "name": "My Super Application",
-  "prefer_related_applications": true,
-  "related_applications": [
-    {
-      "platform": "play",
-      "id": "no.wtw.helserespons.android"
-    }
-  ],
+  "short_name": "MyApp",
+  "name": "My Fantastic Web App",
   "icons": [
     {
-      "src": "icons/icon-48.png",
+      "src": "app-icon-48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "icons/icon-96.png",
+      "src": "app-icon-96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "icons/icon-144.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "icons/icon-192.png",
+      "src": "app-icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
-  ]
+  ],
+  "start_url": "index.html?launcher=true",
+  "display": "fullscreen"
 }
