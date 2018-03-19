@@ -1,4 +1,4 @@
-var CACHE_NAME = 'superapp-cache-v1';
+var CACHE_NAME = 'superapp-cache-v2';
 
 var urlsToCache = [
   '/superapp/',
